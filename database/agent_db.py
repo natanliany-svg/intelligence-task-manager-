@@ -16,6 +16,7 @@ class AgentDB:
             curr = conn.cursor(dictionary=True)
             curr.execute("INSERT INTO agents (name, specialty, agent_rank) VALUES (%s, %s, %s)", 
                 (valid_data.name, valid_data.specialty, valid_data.agent_rank))
+            
             conn.commit()
             n_id = curr.lastrowid
             curr.execute("SELECT * FROM agents WHERE id = %s", (n_id,))
@@ -112,7 +113,7 @@ class AgentDB:
         tot = comp + fail 
         
         if len(tot) > 0:
-            rate  = (len(comp) / len(tot) * 100) 
+            rate  = int(len(comp) / len(tot) * 100)
         else:
             rate = 0.0 
         
@@ -122,7 +123,7 @@ class AgentDB:
         conn = self.db.get_conection()
         curr = conn.cursor()
         curr.execute("SELECT COUNT(*) FROM agents WHERE is_active = TRUE")
-        cnt = curr.fetchone(),[0] 
+        cnt = curr.fetchone()[0] 
         conn.close()
         return cnt
 
