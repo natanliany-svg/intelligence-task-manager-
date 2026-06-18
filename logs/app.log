@@ -1,0 +1,84 @@
+2026-06-18 15:18:34,272 | INFO | post /missons caled
+2026-06-18 15:18:34,272 | INFO | saving new misson to db
+2026-06-18 15:18:34,272 | ERROR | create misson fail: Database error: unbound method dict.keys() needs an argument
+2026-06-18 15:20:42,317 | INFO | post /missons caled
+2026-06-18 15:20:42,318 | INFO | saving new misson to db
+2026-06-18 15:20:42,320 | ERROR | create misson fail: Database error: 5 validation errors for MisisonSchema
+title
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+description
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+location
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+difficulty
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+importance
+  Field required [type=missing, input_value={}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+2026-06-18 15:20:59,323 | INFO | post /missons caled
+2026-06-18 15:20:59,324 | INFO | saving new misson to db
+2026-06-18 15:20:59,324 | ERROR | create misson fail: Database error: unbound method dict.keys() needs an argument
+2026-06-18 15:22:19,101 | INFO | post /missons caled
+2026-06-18 15:22:19,101 | INFO | saving new misson to db
+2026-06-18 15:22:19,101 | ERROR | create misson fail: Database error: unbound method dict.keys() needs an argument
+2026-06-18 15:22:20,383 | INFO | post /missons caled
+2026-06-18 15:22:20,383 | INFO | saving new misson to db
+2026-06-18 15:22:20,383 | ERROR | create misson fail: Database error: unbound method dict.keys() needs an argument
+2026-06-18 15:22:24,151 | INFO | post /missons caled
+2026-06-18 15:22:24,151 | INFO | saving new misson to db
+2026-06-18 15:22:24,151 | ERROR | create misson fail: Database error: unbound method dict.keys() needs an argument
+2026-06-18 15:22:28,657 | INFO | post /missons caled
+2026-06-18 15:22:28,658 | INFO | saving new misson to db
+2026-06-18 15:22:28,658 | ERROR | create misson fail: Database error: unbound method dict.keys() needs an argument
+2026-06-18 15:24:32,353 | INFO | post /missons caled
+2026-06-18 15:24:32,354 | INFO | saving new misson to db
+2026-06-18 15:24:32,354 | ERROR | create misson fail: Database error: utils.my_utils.MisisonSchema() argument after ** must be a mapping, not str
+2026-06-18 15:38:14,456 | INFO | asign misson 5 to agent 14
+2026-06-18 15:38:14,456 | INFO | checking rules and updating db
+2026-06-18 15:38:14,478 | ERROR | asign error: Mission or Agent not fouond
+2026-06-18 15:43:07,633 | INFO | complete misson 2
+2026-06-18 15:43:07,634 | INFO | change status to COMPLETED
+2026-06-18 15:43:07,644 | ERROR | complete error: Mission not found
+2026-06-18 15:50:12,753 | INFO | get agent 2 caled
+2026-06-18 15:50:12,754 | INFO | looking for agent in db
+2026-06-18 15:50:12,764 | INFO | agent data feched
+2026-06-18 15:50:36,518 | INFO | post /missons caled
+2026-06-18 15:50:36,518 | INFO | saving new misson to db
+2026-06-18 15:50:36,519 | ERROR | create misson fail: Database error: 5 validation errors for MisisonSchema
+title
+  Field required [type=missing, input_value={'additionalProp1': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+description
+  Field required [type=missing, input_value={'additionalProp1': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+location
+  Field required [type=missing, input_value={'additionalProp1': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+difficulty
+  Field required [type=missing, input_value={'additionalProp1': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+importance
+  Field required [type=missing, input_value={'additionalProp1': {}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing
+2026-06-18 16:10:58,961 | INFO | get reports summary
+2026-06-18 16:10:58,961 | INFO | runing multipe sql counts
+2026-06-18 16:10:59,014 | INFO | summary done
+2026-06-18 16:11:01,464 | INFO | get reports summary
+2026-06-18 16:11:01,465 | INFO | runing multipe sql counts
+2026-06-18 16:11:01,519 | INFO | summary done
+2026-06-18 16:11:03,588 | INFO | get reports summary
+2026-06-18 16:11:03,588 | INFO | runing multipe sql counts
+2026-06-18 16:11:03,634 | INFO | summary done
+2026-06-18 16:13:02,101 | INFO | asign misson 23 to agent 50
+2026-06-18 16:13:02,101 | INFO | checking rules and updating db
+2026-06-18 16:13:02,118 | ERROR | asign error: Mission or Agent not fouond
+2026-06-18 16:17:53,354 | INFO | fail misson 5
+2026-06-18 16:17:53,354 | INFO | change status to FAILED
+2026-06-18 16:17:53,370 | ERROR | fail status error: Mission not found
+2026-06-18 16:19:13,868 | INFO | get /agents caled
+2026-06-18 16:19:13,868 | INFO | feching agents from db
+2026-06-18 16:19:13,880 | INFO | got all agnets
